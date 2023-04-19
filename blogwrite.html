@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>블로그 글쓰기</title>
+    <link rel="stylesheet" href="writestyle.css" />
+  </head>
+  <body>
+    <header>
+      <h1>블로그 글쓰기</h1>
+    </header>
+    <div class="container">
+      <form>
+        <div class="form-group">
+          <label for="title">제목</label>
+          <input type="text" id="title" name="title" />
+        </div>
+        <div class="form-group">
+          <label for="category">카테고리</label>
+          <select id="category" name="category">
+            <option value="">--카테고리 선택--</option>
+            <option value="daily">일상</option>
+            <option value="travel">여행</option>
+            <option value="food">음식</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label for="content">내용</label>
+          <textarea id="content" name="content"></textarea>
+        </div>
+        <button type="submit">작성 완료</button>
+      </form>
+    </div>
+  </body>
+</html>
